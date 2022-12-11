@@ -1,4 +1,4 @@
-  
+
   
 body {
   height: 100vh;  
@@ -6,7 +6,9 @@ body {
   justify-content: center;  
   background: url('assets/Japán.jpg') no-repeat center center fixed;  
   background-size: cover;  
-  font-weight: 900;
+  font-weight: 800;
+  font-size: 140%;
+  font-family: 'Pacifico', cursive;
 }
 img {
   
@@ -15,11 +17,6 @@ img {
   background-color: #666;
   filter: grayscale(50%);
   transition: all 0.5s ease-in-out;
-}
-.flex-container {
-  display: flex;  
-  margin: 20px;
-  border: 5px;
 }
 
 img:hover {
@@ -40,4 +37,22 @@ ul {
 
 li {
   display: inline;
+}
+
+#box-01 {
+  
+  width: 50%;
+}
+
+#box-02 {
+  
+  width: 50%;
+}
+div {
+  float: left;
+  box-sizing: border-box;
+}
+.flex-container {
+  display: flex;
+  
 }
